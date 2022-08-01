@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+ <title>Sign-up</title>
+</head>
+<body>
+    <div class="content">
+        <div class="picture">
+            <div class="logo">
+                <img src="odin-lined.png" alt="logo" class="face">
+                    <h1 class="odin">Odin</h1>
+            </div>
+        </div>
+    </div>
+        <div class="right">
+            <div class="dummy-text left">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <form action="#">
+                <div class="input">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name" id="first-name" required>
+                </div>
+
+                <div class="input">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name" required>
+                </div>
+
+                <div class="input">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="input">
+                    <label for="phone-number">PHONE NUMBER (xxx-xxx-xxxx)</label>
+                    <input type="tel" type="number" name="phone-number" id="phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </div>
+
+                <div class="input">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+
+                <div class="input">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm-password" id="confirm-password" required>
+                </div>
+                
+                <div class="left button">
+                    <button type="submit">Create Account</button>
+                </div>
+            </form>
+        </div>
+
+</body>
+</html>
